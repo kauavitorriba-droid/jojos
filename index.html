@@ -7,7 +7,7 @@
     <style>
         /* --- ESTILOS VISUAIS (CSS) --- */
         body {
-            font-family: Garamond , serif;
+            font-family: Garamond, serif;
             background-color: #f4f4f9;
             color: #333;
             max-width: 800px;
@@ -19,22 +19,22 @@
         .menu {
             display: flex;
             gap: 15px;
-            margin-bottom: 20px;
+            margin-top: 30px; /* Mudamos para dar espaço em cima do menu */
             justify-content: center;
         }
         .menu a {
             text-decoration: none;
             padding: 10px 20px;
-            background-color: #3498db; /* Azul claro */
+            background-color: #3498db; 
             color: white;
             border-radius: 5px;
             font-weight: bold;
         }
         .menu a:hover {
-            background-color: #2980b9; /* Azul escuro quando passa o mouse */
+            background-color: #2980b9; 
         }
         .menu a.ativo {
-            background-color: #2c3e50; /* Cor diferente para a página atual */
+            background-color: #2c3e50; 
         }
 
         /* Estilo dos Blocos de Conteúdo */
@@ -57,12 +57,6 @@
 </head>
 <body>
 
-    <!-- MENU DE NAVEGAÇÃO -->
-    <nav class="menu">
-        <a href="index.html" class="ativo">John von Neumann</a>
-        <a href="alan-turing.html">Alan Turing</a>
-    </nav>
-
     <!-- CABEÇALHO -->
     <header>
         <h1>John von Neumann</h1>
@@ -74,6 +68,12 @@
         <h2>Quem foi?</h2>
         <p>Matemático húngaro-americano com memória fotográfica que ajudou a criar a base dos computadores modernos.</p>
     </div>
+
+    <!-- MENU DE NAVEGAÇÃO MOVIDO PARA O FINAL -->
+    <nav class="menu">
+        <a href="index.html" class="ativo">John von Neumann</a>
+        <a href="alan-turing.html">Alan Turing</a>
+    </nav>
 
 </body>
 </html>
