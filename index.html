@@ -65,22 +65,7 @@
     border-radius: 8px;
     width: 600px; /* Define que a imagem terá exatamente 300 pixels de largura */
 }
-/* 1. O estado normal da imagem */
-figure img {
-    width: 250px;
-    height: auto;
-    border-radius: 8px;
-    
-    /* A MÁGICA DA ANIMAÇÃO VEM AQUI: */
-    /* Diz ao navegador para animar qualquer transformação durante 0.3 segundos */
-    transition: transform 0.3s ease; 
-}
 
-/* 2. O estado da imagem quando o mouse passa por cima (:hover) */
-figure img:hover {
-    /* Scale(1.1) significa que a imagem vai aumentar 10% do seu tamanho original */
-    transform: scale(1.1); 
-}
     </style>
 </head>
 <body>
@@ -140,7 +125,17 @@ figure img:hover {
     <p><li>ntroduziu a definição formal moderna de números ordinais transfinitos e criou as Álgebras de Von Neumann no estudo de operadores lineares em espaços de Hilbert.</li></p>
 </div>
 </div>
-<img src="john.png" >   
+<div class="cartao">
+        
+        
+        <!-- O ENVELOPE QUE GUARDA A FOTO E A LEGENDA -->
+        <figure>
+            <img src="john.png" alt="Foto de John von Neumann">
+            <figcaption>John von Neumann trabalhando no Instituto de Estudos Avançados.</figcaption>
+        </figure>
+        
+        <p>Matemático húngaro-americano com memória fotográfica que ajudou a criar a base dos computadores modernos.</p>
+    </div>  
 <!-- MENU DE NAVEGAÇÃO MOVIDO PARA O FINAL -->
    
 
