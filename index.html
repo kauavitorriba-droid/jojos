@@ -79,6 +79,16 @@
             font-style: italic; /* Deixa a letra "deitadinha" (itálico) */
             margin-top: 8px; /* Dá um pequeno espaço entre a foto e o texto da legenda */
         }
+       figure img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px; /* Deixa os cantos redondos. Se não quiser cantos redondos, apague esta linha. */
+    
+    /* ADICIONE ESTA LINHA PARA REMOVER A BORDA: */
+    border: none; 
+    
+    transition: transform 0.3s ease; 
+}
 
     </style>
 </head>
@@ -147,8 +157,7 @@
             <img src="john.png" alt="Foto de John von Neumann">
             <figcaption>John von Neumann trabalhando no Instituto de Estudos Avançados.</figcaption>
         </figure>
-        
-        <p>Matemático húngaro-americano com memória fotográfica que ajudou a criar a base dos computadores modernos.</p>
+
     </div>  
 <!-- MENU DE NAVEGAÇÃO MOVIDO PARA O FINAL -->
    
